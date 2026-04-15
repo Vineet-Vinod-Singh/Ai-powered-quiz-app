@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz-App</title>
+    <link href="quiz.css" rel="stylesheet">
+</head>
+<body>
+    <div id="home">
+
+    <h1 class="homehead"><u><b>Next Wave Quiz App</b></u></h1>
+    <div class="startbox">
+        <div>Experience smarter learning with quizzes enhanced by AI-driven insights and explanations.</div>
+
+        <button class="start">Start Quiz</button>
+    </div>
+    </div>
+
+    <div id="quiz">
+        <div class="main">
+            <div class="top-bar">
+                <h2>Question No __ of __</h2>
+                <div class="timer"></div>
+            </div>
+            <div id="question">
+                <h2>The electric field inside a conductor in electrostatic equilibrium is:</h2>
+            </div>
+            <div id="options">
+                <button id="option1">option</button>
+                <button id="option2">option</button>
+                <button id="option3">option</button>
+                <button id="option4">option</button>
+            </div>
+            <div class="bottom">
+                <button class="next">NEXT</button>
+                <button class="ans">AI ANSWER</button>
+                
+
+            </div>
+        </div>
+        
+
+    </div>
+    <div id="answer-screen">
+        <h2>Answer</h2>
+        <p id="ai-text">Thinking...</p>
+        <button class="next-answer">NEXT</button>
+    </div>
+    <script src="quiz.js"></script>
+    <script src="questions.js"></script>
+
+</body>
+</html>
